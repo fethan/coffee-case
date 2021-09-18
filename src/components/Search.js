@@ -1,9 +1,9 @@
-const Search = () => {
+const Search = (props) => {
     return (
         <form>
-            <input type="text" placeholder="Search Category" />
+            <input type="text" placeholder="Search Category" {...props} />
         </form>
     );
 }
 
-export default Search
+export default Search;

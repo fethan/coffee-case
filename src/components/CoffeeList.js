@@ -1,13 +1,13 @@
 import Title from './Title';
 import Description from './Description';
-import Integridiends from './Integridiends';
+import Ingredients from './Ingredients';
 
 const CoffeeList = () => {
     return (
         <div className="coffee-case">
             <Title />
             <Description />
-            <Integridiends />
+            <Ingredients />
         </div>
     );
 }
