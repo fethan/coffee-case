@@ -1,13 +1,10 @@
-import Title from './Title';
-import Description from './Description';
-import Ingredients from './Ingredients';
+import CoffeeRow from "./CoffeeRow";
+
 
 const CoffeeList = () => {
     return (
-        <div className="coffee-case">
-            <Title />
-            <Description />
-            <Ingredients />
+        <div className="coffee-list">
+            <CoffeeRow />
         </div>
     );
 }
